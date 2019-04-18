@@ -7,6 +7,7 @@ $("div").hide();
 $("button").click(function() {
 
     $(".1st").show();
+    $(".find").hide();
 });
 $(".run").click(function() {
 
@@ -17,6 +18,7 @@ $(".run").click(function() {
 $(".get").click(function() {
 
     $(".pls").text("double click the treasure !");
+    $(".1st").hide();
 
 
 
@@ -51,4 +53,6 @@ $("h1").dblclick(function() {
     $("button").hide();
     $(".5th").show();
     $(".pls").text("You won!!!!!!");
+    
+    $(".1st").hide();
 });
